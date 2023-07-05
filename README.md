@@ -13,5 +13,5 @@ Used icons:
 phone
 paw
 facebook
-linkein
+linkedin
 instagram
