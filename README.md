@@ -1,4 +1,5 @@
 # group1-exercise
+
 Repository for group one
 
 Create website using the following design:
@@ -15,3 +16,6 @@ paw
 facebook
 linkedin
 instagram
+
+Icons sizing:
+https://fontawesome.com/docs/web/style/size
