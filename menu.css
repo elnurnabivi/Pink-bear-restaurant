@@ -1,13 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Italianno&family=Saira:wght@500&display=swap");
 
+html {
+  width: 1856px;
+}
+
 body {
   margin: 0 0 0;
-  width: 1728px;
+  width: 1856px;
 }
 
 header {
   margin-bottom: 86px;
+  top: 0;
+  position: sticky;
 }
 
 nav {
@@ -16,7 +22,6 @@ nav {
   align-items: center;
   width: 1728px;
   height: 112px;
-  flex-shrink: 0;
   background: #000;
   padding: 0 64px;
 }
@@ -35,6 +40,7 @@ nav {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-decoration: none;
 }
 
 .order-now {
@@ -76,13 +82,6 @@ main {
 .food-menu__meal {
   border-radius: 20px;
   border: 12px solid #ffc0cb;
-}
-
-.meal-1,
-.meal-2,
-.meal-4,
-.meal-5,
-.meal-6 {
   width: 440px;
   height: 300px;
 }
@@ -95,13 +94,11 @@ main {
 }
 
 .meal-3 {
-  width: 440px;
   height: 1028px;
   grid-row: 2/5;
 }
 
 .meal-7 {
   width: 944px;
-  height: 300px;
   grid-column: 1/3;
 }
