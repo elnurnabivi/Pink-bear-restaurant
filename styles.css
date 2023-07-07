@@ -41,7 +41,6 @@ body {
   background-color: #d9d9d9;
   display: flex;
   justify-content: center;
-  align-items: center;
   box-sizing: border-box;
   margin: 0 304px;
 }
@@ -50,11 +49,7 @@ body {
   width: 550px;
   height: 431px;
   flex-shrink: 0;
-  border: 20px solid #ffc0cb;
-  opacity: 0.800000011920929;
-  background: lightgray 50% / cover no-repeat;
-  box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.25);
-  margin: 304px 0 412px 36px;
+  margin: 294px 0 0 26px;
 }
 
 .mainsection-first {
@@ -66,7 +61,7 @@ body {
   height: 148px;
   flex-shrink: 0;
   background-color: #0ff;
-  margin: 350px 0 0 77px;
+  margin: 317px 0 0 67px;
 }
 
 .homepagetext-first {
@@ -81,7 +76,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding: 337px 0 0 25px;
+  margin: 304px 0 0 25px;
 }
 
 .homepagetext-second {
@@ -96,7 +91,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 28px 0 0 93px;
+  margin: 28px 0 0 83px;
 }
 
 .btn-booktable {
@@ -106,14 +101,45 @@ body {
   border-radius: 20px;
   background: #0ff;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  margin: 0 0 0 79px;
+  margin: 0 0 0 69px;
 }
 
 .text-booktable {
   color: #fff;
-  font-family: Saira;
+  font-family: "Saira";
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.callus {
+  width: 208px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 50px 0px 0px 50px;
+  background: #d9d9d9;
+  position: absolute;
+  top: 1678px;
+  left: 1520px;
+}
+
+.rectangle-for-phone {
+  width: 82px;
+  height: 82px;
+  flex-shrink: 0;
+  background-color: rgba(0, 255, 0, 1);
+  border-radius: 50%;
+  margin: 9px 0 9px 22px;
+}
+
+.phone-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  margin: 17px;
+}
+
+.phone-icon path {
+  fill: #fff;
 }
