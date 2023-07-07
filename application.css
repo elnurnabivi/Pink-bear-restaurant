@@ -7,16 +7,19 @@ body {
   width: 1728px;
 }
 
-header {background-color: #000;
+header {
+  background-color: #000;
   margin-bottom: 86px;
   top: 0;
   position: sticky;
 }
 footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 1728px;
   height: 94px;
   background-color: #000;
-  flex-shrink: 0;
 }
 
 nav {
@@ -60,36 +63,78 @@ nav {
   background: #ffc0cb;
 }
 .form-container__two {
+  display: flex;
+  justify-content: space-between;
+  align-items: ;
+  flex-direction:column;
+
   width: 930px;
   height: 735px;
-  margin: 128px 95px 149px;
-  flex-shrink: 0;
+  margin: 128px 95px 0px;
+  /* border: 1px solid red; */
 }
-/* .text-labels { 
+.job-title {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 39px;
+  width: 497px;
+  height: 40px;
+  color: #000;
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 700;
+}
+.text-labels {
   width: 288px;
   height: 26px;
-  flex-direction: column;
-  flex-shrink: 0;
+  font-size: 32px;
 }
 .text-input {
   width: 456px;
   height: 64px;
   flex-shrink: 0;
-}*/
+}
+.cv-file {
+  width: 482px;
+  height: 60px;
+}
+.address-input{width: 900px;
+height: 220px;}
 .copyright-2023 {
   display: flex;
   width: 620px;
   height: 50px;
-  flex-direction: column;
-  flex-shrink: 0;
+  padding: 23px 0px 21px 44px;
   color: #fff;
   font-family: Calibri;
   font-size: 32px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+}
+.apply-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 548px;
+  height: 58px;
+  margin: 0px 285px 40px 287px;
+}
+.apply-btn__link {
+  border-radius: 3px;
+  background: #1b52df;
+  color: #fff;
+  border: none;
 }
 .footer-icons {
+  padding: 23px 23px 23px 0px;
   fill: #fff;
+}
+.facebook-icon {
+  margin: 23px 13px 23px 0px;
+}
+.linkedin-icon {
+  margin: 23px 13px;
+}
+.instagram-icon {
+  margin: 23px 44px 23px 13px;
 }
