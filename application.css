@@ -66,7 +66,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: ;
-  flex-direction:column;
+  flex-direction: column;
 
   width: 930px;
   height: 735px;
@@ -99,8 +99,10 @@ nav {
   width: 482px;
   height: 60px;
 }
-.address-input{width: 900px;
-height: 220px;}
+.address-input {
+  width: 900px;
+  height: 220px;
+}
 .copyright-2023 {
   display: flex;
   width: 620px;
@@ -126,7 +128,7 @@ height: 220px;}
   border: none;
 }
 .footer-icons {
-  padding: 23px 23px 23px 0px;
+  padding: 0 23px 0 0px;
   fill: #fff;
 }
 .facebook-icon {

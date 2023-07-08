@@ -36,7 +36,7 @@ body {
 
 .homepage-mainsection {
   width: 1120px;
-  height: 1180px;
+  height: 1147px;
   flex-shrink: 0;
   background-color: #d9d9d9;
   display: flex;
@@ -142,4 +142,38 @@ body {
 
 .phone-icon path {
   fill: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1728px;
+  height: 94px;
+  background-color: #000;
+}
+
+.copyright-2023 {
+  display: flex;
+  width: 620px;
+  height: 50px;
+  padding: 23px 0px 21px 44px;
+  color: #fff;
+  font-family: "Calibri";
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.footer-icons {
+  padding: 0 23px 0 0px;
+  fill: #fff;
+}
+.facebook-icon {
+  margin: 23px 13px 23px 0px;
+}
+.linkedin-icon {
+  margin: 23px 13px;
+}
+.instagram-icon {
+  margin: 23px 44px 23px 13px;
 }
