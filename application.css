@@ -5,6 +5,8 @@ html {
 body {
   margin: 0 0 0;
   width: 1728px;
+  height: 1474px;
+  box-sizing: border-box;
 }
 
 header {
@@ -20,13 +22,15 @@ footer {
   width: 1728px;
   height: 94px;
   background-color: #000;
+  margin-top: 174px;
 }
 
 nav {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1433px;
+  width: 1728px;
   height: 112px;
   background: #000;
   padding: 0 64px;
@@ -63,16 +67,20 @@ nav {
   background: #ffc0cb;
 }
 .form-container__two {
+  margin: 49px 95px 0px;
+}
+
+.form-container__two__third {
   display: flex;
   justify-content: space-between;
-  align-items: ;
-  flex-direction: column;
-
-  width: 930px;
-  height: 735px;
-  margin: 128px 95px 0px;
-  /* border: 1px solid red; */
+  flex-direction: row;
 }
+
+.element {
+  display: flex;
+  flex-direction: column;
+}
+
 .job-title {
   display: flex;
   justify-content: center;
@@ -86,22 +94,22 @@ nav {
   font-weight: 700;
 }
 .text-labels {
-  width: 288px;
-  height: 26px;
-  font-size: 32px;
+  margin-bottom: 18px;
 }
 .text-input {
   width: 456px;
   height: 64px;
   flex-shrink: 0;
+  margin-bottom: 35px;
 }
 .cv-file {
   width: 482px;
   height: 60px;
 }
 .address-input {
-  width: 900px;
-  height: 220px;
+  width: 926px;
+  height: 222px;
+  margin-bottom: 61px;
 }
 .copyright-2023 {
   display: flex;
@@ -116,16 +124,19 @@ nav {
 .apply-btn {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 548px;
-  height: 58px;
-  margin: 0px 285px 40px 287px;
 }
+
 .apply-btn__link {
   border-radius: 3px;
   background: #1b52df;
   color: #fff;
   border: none;
+  width: 548px;
+  height: 58px;
+  font-size: 36px;
+  font-family: "Calibri";
+  margin-top: 54px;
+  margin-bottom: 40px;
 }
 .footer-icons {
   padding: 0 23px 0 0px;
@@ -139,4 +150,22 @@ nav {
 }
 .instagram-icon {
   margin: 23px 44px 23px 13px;
+}
+
+form {
+  font-family: "Arial";
+  font-size: 36px;
+}
+
+select.text-input {
+  font-size: 36px;
+  font-family: "Calibri";
+  padding-left: 20px;
+}
+
+.cv_file {
+  font-size: 40px;
+}
+input#cv_file {
+  height: 20px;
 }
