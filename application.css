@@ -9,6 +9,10 @@ body {
   box-sizing: border-box;
 }
 
+footer {
+  margin-top: 200px;
+}
+
 .form-container {
   margin: 62px auto 174px;
   width: 1118px;
@@ -91,7 +95,7 @@ body {
   height: 50px;
   padding: 23px 0px 21px 44px;
   color: #fff;
-  font-family: Calibri;
+  font-family: "Calibri";
   font-size: 32px;
   font-weight: 400;
 }
