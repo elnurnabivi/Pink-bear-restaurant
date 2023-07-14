@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;600&display=swap");
+
 body {
   width: 1728px;
   height: 1980px;
@@ -197,7 +199,8 @@ footer {
   display: flex;
   width: 620px;
   height: 50px;
-  padding: 23px 0px 21px 44px;
+  margin-left: 44px;
+  /* padding: 23px 0px 21px 44px; */
   color: #fff;
   font-family: "Calibri";
   font-size: 32px;
@@ -216,4 +219,9 @@ footer {
 }
 .instagram-icon {
   margin: 23px 44px 23px 13px;
+}
+
+.placeholder-paw {
+  width: 48px;
+  height: 48px;
 }
