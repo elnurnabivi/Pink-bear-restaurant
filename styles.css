@@ -224,7 +224,6 @@ footer {
   margin: 23px 44px 23px 13px;
 }
 
-.placeholder-paw {
-  width: 48px;
-  height: 48px;
+.nav-main {
+  justify-content: flex-end;
 }
