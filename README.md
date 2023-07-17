@@ -1,21 +1,7 @@
-# group1-exercise
+# The Pink Bear Restaurant Website
 
-Repository for group one
+Welcome to the repository for The Pink Bear Restaurant website. This website is built with standard web technologies: HTML5, CSS3.
 
-Create website using the following design:
+## Description
 
-https://www.figma.com/file/Nu5mQ3FAQ8woaQdtPlX25F/Groups?node-id=0%3A1&mode=dev
-
-Bear svg:
-
-https://freesvg.org/bear-8
-
-Used icons:
-phone
-paw
-facebook
-linkedin
-instagram
-
-Icons sizing:
-https://fontawesome.com/docs/web/style/size
+The website is composed of several HTML page, with links to various sections. 
